@@ -151,7 +151,12 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import {
+  ref,
+  computed,
+  onMounted,
+  watch,
+} from 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js'
 
 const isDark = ref(false)
 
