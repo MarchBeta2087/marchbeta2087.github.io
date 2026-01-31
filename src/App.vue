@@ -178,11 +178,6 @@
           class="group flex items-center p-6 rounded-2xl shadow-lg hover:-translate-y-1 border transition-all duration-500"
           :style="cardStyle"
         >
-          <div
-            class="w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 transition-transform duration-500 group-hover:scale-110"
-            :style="iconBoxStyle"
-          >
-          </div>
           <div class="flex-1">
             <h4 class="text-lg font-bold transition-all duration-500" :style="cardTitleStyle">
               Pinpe的云端
