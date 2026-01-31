@@ -38,9 +38,12 @@
           👋 欢迎来到我的主页
         </div>
         <h2 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight transition-all duration-500">
+          <div style="display:flex;justify-content:center;align-items:center;height:300px;">
+            <img src="https://avatars.githubusercontent.com/u/98508270?v=4&size=64" height="256" width="256" alt="Centered Image">
+          </div>
           构建优雅的、先进的<br />
           <!-- 大标题渐变 -->
-          <span :style="gradientTextStyle" class="transition-all duration-500"> Web 体验 </span>
+          <span :style="gradientTextStyle" class="transition-all duration-500"> Web 体验</span>
         </h2>
         <p
           class="text-xl mb-8 max-w-2xl mx-auto leading-relaxed font-medium opacity-80 transition-all duration-500"
@@ -71,10 +74,6 @@
             💻
           </div>
           <div class="flex-1">
-            <!-- 
-              👇 修改重点：这里绑定了 cardTitleStyle 
-              让标题也变成渐变色
-            -->
             <h4 class="text-lg font-bold transition-all duration-500" :style="cardTitleStyle">
               GitHub 主页
             </h4>
@@ -132,6 +131,63 @@
             <p class="text-sm opacity-70 transition-all duration-500">
               全球亚文化俱乐部联盟 — 2040-2060 近未来科幻世界观
             </p>
+          </div>
+          <span class="opacity-50 group-hover:translate-x-1 transition-transform duration-300"
+            >→</span
+          >
+        </a>
+
+        <!-- 卡片 4: 博客 -->
+        <a
+          href="https://marchbeta2087.github.io/blogs/"
+          target="_blank"
+          class="group flex items-center p-6 rounded-2xl shadow-lg hover:-translate-y-1 border transition-all duration-500"
+          :style="cardStyle"
+        >
+          <div
+            class="w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 transition-transform duration-500 group-hover:scale-110"
+            :style="iconBoxStyle"
+          >
+            🍪
+          </div>
+          <div class="flex-1">
+            <h4 class="text-lg font-bold transition-all duration-500" :style="cardTitleStyle">
+              MarchBeta2087的星空
+            </h4>
+            <p class="text-sm opacity-70 transition-all duration-500">
+              我的个人博客
+            </p>
+          </div>
+          <span class="opacity-50 group-hover:translate-x-1 transition-transform duration-300"
+            >→</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <!-- 友链 -->
+    <section class="py-20 px-6">
+      <div class="max-w-4xl mx-auto space-y-4">
+        <h3 class="text-3xl font-bold text-center mb-12 transition-all duration-500">
+          友链
+        </h3>
+        <!-- 卡片 1: Pinpe的云端 -->
+        <a
+          href="https://pinpe.top"
+          target="_blank"
+          class="group flex items-center p-6 rounded-2xl shadow-lg hover:-translate-y-1 border transition-all duration-500"
+          :style="cardStyle"
+        >
+          <div
+            class="w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 transition-transform duration-500 group-hover:scale-110"
+            :style="iconBoxStyle"
+          >
+          </div>
+          <div class="flex-1">
+            <h4 class="text-lg font-bold transition-all duration-500" :style="cardTitleStyle">
+              Pinpe的云端
+            </h4>
+            <img src="https://pinpe.top/head.jpg">
           </div>
           <span class="opacity-50 group-hover:translate-x-1 transition-transform duration-300"
             >→</span
