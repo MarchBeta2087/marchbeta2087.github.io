@@ -110,8 +110,8 @@
             >→</span
           >
         </a>
-
         <!-- 卡片 3: GSCU 设定集 -->
+<!--
         <a
           href="https://marchbeta2087.github.io/GSCU/"
           target="_blank"
@@ -136,7 +136,7 @@
             >→</span
           >
         </a>
-
+-->
         <!-- 卡片 4: 博客 -->
         <a
           href="https://marchbeta2087.github.io/blogs/"
